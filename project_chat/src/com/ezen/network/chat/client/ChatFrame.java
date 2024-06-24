@@ -29,48 +29,22 @@ public class ChatFrame extends Frame{
         loginButton = new Button("로그인");
         sendButton = new Button("전  송");
         messageTA = new TextArea();
-//        messageTA.setEnabled(false);
-//        messageTA.setFont(new Font("Sans-serif", Font.PLAIN, 11));
         messageTA.setEditable(false);
         nickNameList = new List();
-//        nickNameList.add("바나나");
-//        nickNameList.add("오렌지");
-//        nickNameList.add("토마토");
-//        nickNameList.add("(T_T)");
-//        nickNameList.add("＞_＜");
+
         nickNameList.setPreferredSize(new Dimension(100, 410));
-//        nickNameList.add();
 
         messageTF = new TextField();
 
 
         nickNameChoice = new Choice();
         nickNameChoice.add("-전체에게-");
-//        nickNameChoice.add();
+
 
         messageTF = new TextField("내용을 입력하세요...");
     }
 
     public void initComponents(){
-        // 개발 편의상 레이아웃매니저 사용X
-        // 좌표값 배치 (실제로 권장X)
-//        setLayout(null);
-//
-//        nickNameTF.setBounds(30,45,220,25);
-//        loginButton.setBounds(260,45,65,25);
-//        messageTA.setBounds(30,80,220,250);
-//        nicknameList.setBounds(260,80,65,250);
-//        messageTF.setBounds(30,340,295,55);
-//        sendButton.setBounds(260,400,65,25);
-
-        // add까지 해야 실제로 붙어서 나온다
-//        add(nickNameTF);
-//        add(loginButton);
-//        add(messageTA);
-//        add(nickNameList);
-//        add(messageTF);
-//        add(sendButton);
-
         Panel topPanel = new Panel();
         topPanel.setLayout(new BorderLayout(5, 5));
         topPanel.add(nickNameTF, BorderLayout.CENTER);
@@ -79,15 +53,13 @@ public class ChatFrame extends Frame{
         Panel bottomPanel = new Panel();
         bottomPanel.setLayout(new BorderLayout(5, 5));
         bottomPanel.add(messageTF, BorderLayout.CENTER);
-        bottomPanel.add(nickNameChoice, BorderLayout.WEST); //-------과제
+        bottomPanel.add(nickNameChoice, BorderLayout.WEST); 
         bottomPanel.add(sendButton, BorderLayout.EAST);
 
         add(topPanel, BorderLayout.NORTH);
         add(messageTA, BorderLayout.CENTER);
         add(nickNameList, BorderLayout.EAST);
         add(bottomPanel, BorderLayout.SOUTH);
-
-
     }
 
     /**
