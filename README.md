@@ -31,7 +31,7 @@ Java Socket을 활용한 채팅기능 구현
 <img src="https://github.com/beetnalhee/Java_Socket/assets/151362604/1c8b2024-7433-4ad8-bb0d-e98338b73def" width="400" height="300"/></br>
 
 
-> [코드보기](https://github.com/beetnalhee/board/blob/main/java/com/ezen/board/dao/JdbcArticleDao.java)
+> [코드보기](https://github.com/beetnalhee/Java_Socket/blob/main/project_chat/src/com/ezen/network/chat/server/ChatServer.java)
 </br>
 
 </br>
