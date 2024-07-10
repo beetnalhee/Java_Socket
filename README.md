@@ -20,7 +20,7 @@ Java Socket을 활용한 채팅기능 구현
 
 ### 2. 전체대화/1:1대화 
 > * select box에서 전체대화 선택 시, 전체에게 메세지 발송
-#### 특정 아이디 선택 시, 해당 아이디로만 메세지 발송
+> * 특정 아이디 선택 시, 해당 아이디로만 메세지 발송
 <img src="https://github.com/beetnalhee/Java_Socket/assets/151362604/e53c99f7-439b-40ce-8d57-98cfacc9098f" width="400" height="300"/></br>
 <img src="https://github.com/beetnalhee/Java_Socket/assets/151362604/d4d9ad88-0fb6-4446-992e-93e98eb2483a" width="400" height="300"/></br>
 
